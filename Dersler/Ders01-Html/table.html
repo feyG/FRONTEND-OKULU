@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Tablo Yapısı-Formlar</title>
+</head>
+<body>
+    <table border="1" cellpadding="10" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th>Ad</th>
+                <th>Soyad</th>
+                <th>Yas</th>
+            </tr>
+            <tbody>
+                <tr>
+                    <td>Feyza Nur</td>
+                    <td>Gokce</td>
+                    <td>21</td>
+                </tr>
+                <tr>
+                    <td>Sude Nur</td>
+                    <td>Gokce</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Furkan</td>
+                    <td>Gokce</td>
+                    <td>17</td>
+                </tr>
+            </tbody>
+        </thead>
+    </table>
+
+    <form>
+        <div>
+            <label for="ad">Ad:</label>
+            <input type="text" id="ad" name="ad"/>
+        </div>
+        <div>
+            <label for="soyad">Soyad:</label>
+            <input type="text" id="surname" name="surname"/>
+        </div>
+        <div>
+            <label for="password">Şifre</label>
+            <input type="password" id="Şifre" name="Şifre"/>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="mail" id="mail" name="mail"/>
+        </div>
+        <div>
+            <label for="date">Tarih</label>
+            <input type="date" id="date" name="date"/>
+        </div>
+        <div>
+            <label for="time">Saat</label>
+            <input type="time" id="time" name="time"/>
+        </div>
+        <div>
+            <label>Cinsiyet</label>
+            <label for="woman">Kadın</label>
+            <input type="radio" id="woman" name="gender"/>
+            <label for="man">Erkek</label>
+            <input type="radio" id="man" name="gender"/>
+        </div>
+        <div>
+            <label>Programalama Dilleri</label>
+            <label for="python">Python</label>
+            <input type="checkbox" id="python" name="python"/>
+            <label for="java">Java</label>
+            <input type="checkbox" id="java" name="java"/>
+        </div>
+        <input type="submit" value="Gönder"/>
+    </form>   
+</body>
+</html>

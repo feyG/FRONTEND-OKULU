@@ -1,0 +1,57 @@
+<!-- Öğrenciler kendi haklarında bir web sayfası oluşturacaklar.
+İçerik:
+Başlık: İsim ve meslek
+Görsel: Profil resmi
+Hakkımda: Kısa bir biyografi
+İlgi Alanları: Listelerle hobiler
+İletişim Bilgileri: E-posta ve sosyal medya bağlantıları
+İletişim Formu: Ad soyad ve textarea olacak -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feyza Programcı</title>
+</head>
+<body>
+    <img src="profil.jpeg" width="300" height="300"/>
+        <h3>Hakkımda</h3>
+        Ben, bilgisayar programcılığı öğrencisi olarak araştırma yapmayı, farklı kültürlerle etkileşim içinde olmayı seviyorum.<p> 
+            Güncel kalmak ve yeniliklere açık olmak benim için önemli, </p>bu yüzden mesleğimde sürdürülebilir bir iş yapmayı hedefliyorum.
+        <h3>Hobilerim</h3>
+            <ul>
+                <li>Film izlemek</li>
+                <li>Müzik dinlemek</li>
+                <li>Çizim yapmak</li>
+                <li>Uzay ile ilgili araştırma yapmak</li>
+                <li>Adrenali yüksek sporlara katılmak</li>
+            </ul>
+        <h2>İletişim Bilgileri</h2>
+        <ul>
+    <p>
+    <li><a href="mailto:feyzagokce1071@gmail.com">Gmail</a></li>
+    <p>
+    <li><a href="https://www.linkedin.com/in/feyza-nur-g%C3%B6k%C3%A7e-917820272/">Linkedin</a></li>
+    </p>
+        </ul>
+
+    <h3>İletişim Formu</h3>
+    <form>
+        <div>
+            <p><label for="Ad">Adınız</label></p>
+            <input type="text" id="Ad" name="Ad"/> 
+        </div>
+        <div>
+            <p><label for="Soyad">Soyadınız</label></p>
+            <input type="text" id="soyad" name="soyad"/>
+        </div>
+        <div>
+            <p><label for="comments">Mesajınız</label></p>
+            <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+        </div>
+            <input type="submit" value="Gönder"/>
+    </form>
+</body>
+</html>
